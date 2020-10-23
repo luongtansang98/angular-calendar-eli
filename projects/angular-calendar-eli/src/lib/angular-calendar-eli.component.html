@@ -90,9 +90,9 @@
 
     </div>
 
-    <div id="jsiCalHeader" class="calHeaderWrap" style="margin-top: 0px;">
-        <table summary="予約時間一覧" class="dayTable-sp upperDate">
-            <tbody>
+    <div id="jsiCalHeader" #header class="calHeaderWrap" style="margin-top: 0px;">
+        <table summary="予約時間一覧" class="dayTable-sp upperDate"  >
+            <tbody >
                 <tr class="timeColor-sp">
                     <th rowspan="2" scope="col" class="w16p">日時</th>
                     <th *ngIf="monthCellFirst !== 0" [attr.colspan]="monthCellFirst">

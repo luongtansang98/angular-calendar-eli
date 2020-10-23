@@ -730,3 +730,14 @@
 .w16p {
     width: 16%;
 }
+.sticky {
+  position: fixed;
+  top: 0px;
+  /* width: calc(99.9% - 7.2%); */
+}
+.sticky + #jsiCalDayTable {
+  padding-top: 62px;
+}
+#jsiCalHeader{
+  z-index: 999;
+}
